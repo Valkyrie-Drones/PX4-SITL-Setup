@@ -17,7 +17,7 @@
 
 4. Run the setup script
 ```shell
-    ./setup.sh
+    bash ./setup.sh
 ```
 
 5. Restart WSL
