@@ -59,6 +59,10 @@ git clone https://github.com/PX4/PX4-Autopilot.git --recursive
 echo "--- PX4-Autopilot repository cloned"
 
 # Install PX4 dependencies
+echo "Installing PX4 dependencies"
 bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+echo "--- PX4 dependencies installed"
+
+echo ""
 
 
