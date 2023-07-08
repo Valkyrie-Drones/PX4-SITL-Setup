@@ -10,17 +10,12 @@
     git clone https://github.com/Valkyrie-Drones/PX4-SITL-Setup
 ```
 
-3. Go to the cloned repository
+3. Run the setup script
 ```shell
-    cd PX4-SITL-Setup
+    bash ./PX4-SITL-Setup/setup.sh
 ```
 
-4. Run the setup script
-```shell
-    sudo bash ./setup.sh
-```
-
-5. Restart WSL
+4. Restart WSL
 
 
 # Run Instructions

@@ -11,13 +11,6 @@ echo "--- System updated"
 
 echo ""
 
-# Install git
-echo "Installing git"
-sudo apt-get install git -y
-echo "--- Git installed"
-
-echo ""
-
 # Make a directory with the $DEV_FOLDER_NAME
 echo "Making a directory with the name $DEV_FOLDER_NAME"
 mkdir $DEV_FOLDER_NAME
