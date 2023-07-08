@@ -40,7 +40,9 @@ echo "--- Virtual environment created"
 echo ""
 
 # Activate the virtual environment
+echo "Activating the virtual environment"
 source env/bin/activate
+echo "--- Virtual environment activated"
 
 echo ""
 
@@ -52,9 +54,11 @@ echo "--- requirements.txt installed"
 echo ""
 
 # Clone the PX4-Autopilot repository
-# git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+echo "Cloning the PX4-Autopilot repository"
+git clone https://github.com/PX4/PX4-Autopilot.git --recursive
+echo "--- PX4-Autopilot repository cloned"
 
-# # Install PX4 dependencies
-# sudo bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
+# Install PX4 dependencies
+bash ./PX4-Autopilot/Tools/setup/ubuntu.sh
 
 
