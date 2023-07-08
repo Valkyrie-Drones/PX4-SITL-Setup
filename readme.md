@@ -20,7 +20,12 @@
 
 # Run Instructions
 
-1. Go to the PX4-SITL folder
+1. Run the run_sitl.sh script
 ```shell
-    cd ~/PX4-SITL
+    bash ./PX4-SITL-Setup/run_sitl.sh
+```
+
+2. In another terminal, run the run_fast.sh script
+```shell
+    bash ./PX4-SITL-Setup/run_fastapi.sh
 ```
