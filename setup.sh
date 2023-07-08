@@ -41,7 +41,7 @@ echo ""
 
 # Copy the FAST_API_FOLDER_NAME from ~/REPO_NAME to ~/DEV_FOLDER_NAME
 echo "Copying the $FAST_API_FOLDER_NAME from ~/$REPO_NAME to ~/$DEV_FOLDER_NAME"
-cp -r ~/$REPO_NAME/$FAST_API_FOLDER_NAME .
+cp -r ~/$REPO_NAME/$FAST_API_FOLDER_NAME ~/$DEV_FOLDER_NAME
 echo "--- Copied"
 
 echo ""
