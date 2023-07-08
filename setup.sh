@@ -3,7 +3,6 @@
 REPO_NAME=PX4-SITL-Setup
 FAST_API_FOLDER_NAME=fast-api-server
 DEV_FOLDER_NAME=PX4-SITL
-HOME_DIRECTORY=/home/$USER
 
 # Update the system
 echo "Updating the system"
@@ -16,13 +15,6 @@ echo ""
 echo "Installing git"
 sudo apt-get install git -y
 echo "--- Git installed"
-
-echo ""
-
-# Go to home directory
-echo "Going to home directory"
-cd $HOME_DIRECTORY
-echo "--- In home directory"
 
 echo ""
 
@@ -42,7 +34,7 @@ echo ""
 
 # Copy the FAST_API_FOLDER_NAME from $HOME_DIRECTORY/REPO_NAME to $HOME_DIRECTORY/DEV_FOLDER_NAME
 echo "Copying the $FAST_API_FOLDER_NAME from $HOME_DIRECTORY/$REPO_NAME to $HOME_DIRECTORY/$DEV_FOLDER_NAME"
-cp -r $HOME_DIRECTORY/$REPO_NAME/$FAST_API_FOLDER_NAME .
+cp -r ../$REPO_NAME/$FAST_API_FOLDER_NAME .
 echo "--- Copied"
 
 echo ""
